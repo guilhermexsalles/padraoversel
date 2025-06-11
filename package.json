@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "test -f vite.config.js && vite build || echo 'Nenhum build necessário'",
+      "build": "vite build",
     "preview": "vite preview",
     "start": "node server.js",
     "api": "nodemon server.js"
